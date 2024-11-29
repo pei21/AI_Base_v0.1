@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vase Project</title>
+    <link rel="stylesheet" href="CSS/general.css" />
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+  </head>
+  <body>
+<header>
+  <div class="citation-banner">
+    This website is an experimental project - all images and content are
+    generated using AI tools.
+  </div>
+  <div class="nav-container">
+    <img src="images/Asset 2.png" alt="Company Logo" class="nav-logo">
+    <nav class="responsive-nav">
+      <div class="menu-toggle" id="menu-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <!-- Close icon SVG positioned at the top-right of the nav menu -->
+        <li class="close-menu" id="close-menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#garniture-vase">Garniture-Vase</a></li>
+        <li><a href="#asia-vase">Asia-Vase</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    <!-- Hero Section -->
+    <section class="hero">
+       <div class="hero-image">
+    <img src="images/Hero-Vase-exhibition-Camera.png" alt="Hero Vase Exhibition">
+  </div>
+      <!-- <div class="hero-overlay"> -->
+      <!-- <div class="hero-content">
+        <h1>Elegance in Every Detail</h1>
+        <p>Discover our exquisite collection of handcrafted vases</p>
+        <a href="#gallery" class="hero-btn">Explore Collection</a>
+      </div> -->
+    </section>
+
+    <main>
+      <!-- Horizontal Scrolling Sections -->
+       <!-- About Section -->
+<section id="about" class="about-section">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>The Timeless Journey of Vases</h2>
+      <div class="about-description">
+  <p>
+The history of vases showcases the deep interconnectedness of cultures, where artistry transcends borders and time. From the classical marble vases of ancient Greece to the intricate porcelain of China’s Yuan dynasty and Korea’s Joseon dynasty, these artifacts reflect distinct cultural identities while sharing universal themes of beauty and craftsmanship. Rediscovered, collected, and celebrated across continents, vases have become symbols of artistic exchange and innovation.</p>  
+<p>
+The global journey of vases highlights their role as cultural bridges. European collectors embraced Asian ceramics, blending them into their artistic traditions, while modern museums and artists like Cho Duck-Hyun preserve and reinterpret these treasures. Together, they demonstrate how vases connect diverse histories, linking the past to the present in a shared appreciation of art.  </p>
+</div>
+      <div class="about-features">
+        <div class="feature">
+          <span class="feature-icon">🏺</span>
+          <h3>Historical Significance</h3>
+          <p>Discover pieces spanning over two millennia of human artistry</p>
+        </div>
+        <div class="feature">
+          <span class="feature-icon">🎨</span>
+          <h3>Artistic Excellence</h3>
+          <p>Experience the finest examples of ceramic craftsmanship</p>
+        </div>
+        <div class="feature">
+          <span class="feature-icon">🌏</span>
+          <h3>Cultural Heritage</h3>
+          <p>Explore diverse cultural influences from East to West</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Your existing vas-title section continues here -->
+
+      <section id="garniture-vase" class="main-vase">
+        <div class="object-container">
+          <div class="card artifact-special">
+            <div class="artifact-image">
+              <img
+                src="images/garniture.png"
+                alt="Garniture Vase"   width="640"
+        height="360"
+              />
+            </div>
+            <div class="artifact-content">
+              <h3 class="artifact-title">Garniture Set (one clock and 2 vases)</h3>
+              <h4 class="artifact-subtitle">1736–1770</h4>
+              <p class="artifact-text">
+                The fascination with Chinese porcelain among aristocratic circles increased during the reign of Louis XV. In reaction to the perceived excesses of elaborate naturalistic ornament of the 1750s, mount makers increasingly turned to neoclassical designs, known as Goût Grec (Greek taste) in the 1760s and 1770s. 
+              </p>
+               <audio controls>
+                <source src="audio/garniture-vase-audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          </div>
+
+          <div class="vase-image">
+            <div class="card artifact-card1">
+              <div class="artifact-image">
+                <img
+                  src="images/garniture-main.png"
+                  alt="Garniture Vase Detail 1" style="width: 100%; height: 5\0%; object-fit: cover; border-radius: 12px;"
+                />
+              </div>
+            </div>
+            <div class="card artifact-card1">
+              <div class="artifact-image">
+                <img
+                  src="images/garniture-Camera 2.png"
+                  alt="Garniture Vase Detail 2"
+                />
+              </div>
+            </div>
+            <div class="card artifact-card1">
+              <div class="artifact-image">
+                <!-- <img
+                  src="images/garniture-Camera 3.png"
+                  alt="Garniture Vase Detail 3"
+                /> -->
+                    <model-viewer
+                      src="assets/garniture.glb"
+                      alt="A 3D model of an astronaut"
+                      ar
+                      auto-rotate
+                      camera-controls
+                    ></model-viewer>
+              </div>
+            </div>
+            <div class="card artifact-card1 tablet-only-image">
+      <div class="artifact-image">
+        <img
+          src="images/garniture-main.png"
+          alt="Garniture Vase Detail 4"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+         
+
+        <div class="object-container">
+          <div class="card artifact-special">
+            <div class="artifact-image">
+              <img
+                src="images/borghese.png"
+                alt="borghese Vase"   
+              />
+            </div>
+            <div class="artifact-content">
+              <h3 class="artifact-title">Borghese Crater</h3>
+              <h4 class="artifact-subtitle">–40 / –30 (3rd quarter 1st century BC)</h4>
+              <p class="artifact-text">
+                The Borghese Crater is an exemplary piece that highlights the fusion of Greek artistry with Roman tastes during the late Hellenistic period. Its preservation and display at the Louvre allow for continued appreciation and study of ancient cultural exchanges and artistic achievements.
+              </p>
+               <audio controls>
+        <source src="audio/borghese.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+            </div>
+          </div>
+
+          <div class="vase-image">
+            <div class="card artifact-card1">
+              <div class="artifact-image">
+                <img
+                  src="images/borghese-main.png"
+                  alt="borghese Vas Detail 1" style="width: 100%; height: 5\0%; object-fit: cover; border-radius: 12px;"
+                />
+              </div>
+            </div>
+            <div class="card artifact-card1">
+              <div class="artifact-image">
+                <img
+                  src="images/borghese-Camera 2.png"
+                  alt="borghese Vas Detail 2"
+                />
+              </div>
+            </div>
+            <div class="card artifact-card1">
+              <div class="artifact-image">
+                <model-viewer
+                      src="assets/borghese_vase.glb"
+                      alt="A 3D model of an astronaut"
+                      ar
+                      auto-rotate
+                      camera-controls
+                    ></model-viewer>
+              </div>
+            </div>
+            <div class="card artifact-card1 tablet-only-image">
+      <div class="artifact-image">
+        <img
+          src="images/borghese-main.png"
+          alt="borghese Vas Detail 4"
+        />
+      </div>
+    </div>
+          </div>
+        </div>
+         <div class="object-container"></div>
+          <div class="card artifact-special">
+            <div class="artifact-image">
+              <img
+                src="images/flower+bird.png"
+                alt="flower+bird Vase"
+              />
+            </div>
+            <div class="artifact-content">
+              <h3 class="artifact-title">Vase with Bird and Flower Design</h3>
+              <h4 class="artifact-subtitle">late 1800s–early 1900s</h4>
+              <p class="artifact-text">
+                This vase with broad shoulders and a tall neck represents a typical style of 19th-century blue-and-white porcelain. Unlike earlier examples decorated mainly with literati themes that evoke neo-Confucian moral values—plum blossoms (purity), orchids (grace), bamboo (integrity), and chrysanthemums (loftiness)—porcelain works of the 1800s feature fully bloomed peonies and a pair of playful birds, symbols of wealth and familial harmony.
+              </p>
+                     <audio controls>
+       <source src="audio/flower+bird.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+            </div>
+          </div>
+
+
+          <div class="vase-image">
+            <div class="card artifact-card1">
+              <div class="artifact-image">
+                <img
+                  src="images/flower+bird-main.png"
+                  alt="flower+bird vase Detail 1"
+                />
+              </div>
+            </div>
+            <div class="card artifact-card1">
+              <div class="artifact-image">
+                <img
+                  src="images/flower+bird-Camera 2.png"
+                  alt="flower+bird vase Detail 2"
+                />
+              </div>
+            </div>
+            <div class="card artifact-card1">
+              <div class="artifact-image">
+                <!-- <img
+                  src="images/flower+bird-Camera 3.png"
+                  alt="flower+bird vase Detail 3"
+                /> -->
+                 <model-viewer
+                      src="assets/flower+bird.glb"
+                      alt="A 3D model of an astronaut"
+                      ar
+                      auto-rotate
+                      camera-controls
+                    ></model-viewer>
+              </div>
+            </div>
+            <div class="card artifact-card1 tablet-only-image">
+      <div class="artifact-image">
+        <img
+          src="images/flower+bird-main.png"
+          alt="flower+bird vase Detail 4"
+        />
+      </div>
+    </div>
+          </div>
+        </div>
+        <div id="asia-vase" class="object-container">
+          <div class="card artifact-special">
+            <div class="artifact-image">
+              <img
+                src="images/chinese.png"
+                alt="chinese Vase"   width="640"
+        height="360"
+              />
+            </div>
+            <div class="artifact-content">
+              <h3 class="artifact-title">Vase</h3>
+              <h4 class="artifact-subtitle">1736-1795</h4>
+              <p class="artifact-text">
+                The four-character mark on the base of this vase indicates that it was made in Jingdezhen and then sent to Beijing to be decorated in the imperial workshops by painters who were trained in using Western perspective and shading.
+              </p>
+               <audio controls>
+        <source src="audio/chinese-vase.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+            </div>
+          </div>
+
+          <div class="vase-image">
+            <div class="card artifact-card1">
+              <div class="artifact-image">
+                <img
+                  src="images/chinese-main.png"
+                  alt="chinese Vase Detail 1" style="width: 100%; height: 5\0%; object-fit: cover; border-radius: 12px;"
+                />
+              </div>
+            </div>
+            <div class="card artifact-card1">
+              <div class="artifact-image">
+                <img
+                  src="images/chinese-Camera2.png"
+                  alt="chinese Vase Detail 2"
+                />
+              </div>
+            </div>
+            <div class="card artifact-card1">
+              <div class="artifact-image">
+               <model-viewer
+                      src="assets/chinese.glb"
+                      alt="A 3D model of an astronaut"
+                      ar
+                      auto-rotate
+                      camera-controls
+                    ></model-viewer>
+              </div>
+            </div>
+            <div class="card artifact-card1 tablet-only-image">
+      <div class="artifact-image">
+        <img
+          src="images/chinese-main.png"
+          alt="chinese Vase Detail 4"
+        />
+      </div>
+    </div>
+          </div>
+        </div>
+         <div class="object-container">
+          <div class="card artifact-special">
+            <div class="artifact-image">
+              <img
+                src="images/dragon.png"
+                alt="dragon Vase"
+              />
+            </div>
+            <div class="artifact-content">
+              <h3 class="artifact-title">Jar with Dragon Design</h3>
+              <h4 class="artifact-subtitle">1392–1910</h4>
+              <p class="artifact-text">
+                A mythical creature believed to have the power to make rain, the dragon is a prominent symbol of rulers in premodern East Asia. In underglaze cobalt blue, a dragon on this jar is depicted flying through clouds to catch a flaming, wish-granting pearl called a cintamani. In the royal court, the shorter type of dragon jar was used to hold wine, the tall type, such as this one, was for holding a bouquet of flowers.
+              </p>
+                             <audio controls>
+       <source src="audio/dragon.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+            </div>
+          </div>
+
+          <div class="vase-image">
+            <div class="card artifact-card1">
+              <div class="artifact-image">
+                <img
+                  src="images/dragon-main.png"
+                  alt="dragon Detail main"
+                />
+              </div>
+            </div>
+            <div class="card artifact-card1">
+              <div class="artifact-image">
+                <img
+                  src="images/dragon-Camera 2.png"
+                  alt="dragon Vase Detail 2"
+                />
+              </div>
+            </div>
+            <div class="card artifact-card1">
+              <div class="artifact-image">
+                <!-- <img
+                  src="images/dragon-Camera 3.png"
+                  alt="dragon Vase Detail 3"
+                /> -->
+                 <model-viewer
+                      src="assets/dragon.glb"
+                      alt="A 3D model of an astronaut"
+                      ar
+                      auto-rotate
+                      camera-controls
+                    ></model-viewer>
+              </div>
+            </div>
+            <div class="card artifact-card1 tablet-only-image">
+      <div class="artifact-image">
+        <img
+          src="images/dragon-main.png"
+          alt="dragon Vase main "
+        />
+      </div>
+    </div>
+          </div>
+        </div>
+      </section>
+      <!-- Additional images in horizontal scroll -->
+
+      <!-- New Content Sections
+      <section class="luxury-section" id="about">
+        <h2>About VASE</h2>
+        <p>
+          VASE combines timeless elegance and innovative design, creating pieces
+          that captivate and inspire. Each vase represents the perfect balance
+          between function and beauty, elevating any space into a luxurious
+          haven.
+        </p>
+      </section> -->
+
+    
+
+   
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Vase Project. All rights reserved.</p>
+    </footer>
+
+    <script src="basic.js"></script>
+  </body>
+</html>
